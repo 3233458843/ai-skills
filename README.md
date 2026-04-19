@@ -38,7 +38,7 @@ cp -r ./note-taking ~/.openclaw/workspace/skills/
   - `generate_stat_table.py`: 统计表生成工具。
 - **参考指南**: 文件夹内包含针对工程、社会科学等不同专业的写作指南。
 
-### 🎯 `.claude` (Karpathy 编码准则)
+### 💻 `coding` (Karpathy 编码准则)
 基于 Andrej Karpathy 的观察，旨在减少 LLM 在编程时常见的错误。
 
 - **核心能力**:
