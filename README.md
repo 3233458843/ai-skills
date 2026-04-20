@@ -12,7 +12,8 @@
 ```bash
 # 示例：复制论文助手技能
 cp -r ./skill-thesis-writer ~/.openclaw/workspace/skills/
-cp -r ./note-taking ~/.openclaw/workspace/skills/
+cp -r ./note-obsidian ~/.openclaw/workspace/skills/
+cp -r ./note-context-handoff ~/.openclaw/workspace/skills/
 ```
 
 ### 2. 激活技能
@@ -47,11 +48,11 @@ cp -r ./note-taking ~/.openclaw/workspace/skills/
   - **外科手术式修改**: 修改代码时仅触动必要部分，严格匹配既有风格。
   - **目标驱动执行**: 将复杂任务转化为可验证的步骤循环。
 
-### 📝 `note-taking` (智能笔记增强)
-专注于将 AI 的输出与现代笔记软件（如 Obsidian）及长短期记忆管理相结合。
+### 📝 笔记增强系列 (Note-Taking)
+专注于将 AI 的输出与现代笔记软件及长短期记忆管理相结合。
 
-- **Obsidian 联动**: 允许 Agent 直接与 Obsidian 库交互，实现知识的持久化存储。
-- **上下文交接 (Context Handoff)**: 
+- **`note-obsidian` (Obsidian 联动)**: 允许 Agent 直接与 Obsidian 库交互，实现知识的持久化存储。
+- **`note-context-handoff` (上下文交接)**: 
   - 解决长对话导致 Token 溢出的问题。
   - 自动生成 `current.md` 和 `history` 摘要，使 Agent 在新会话中能迅速找回之前的进度。
 
