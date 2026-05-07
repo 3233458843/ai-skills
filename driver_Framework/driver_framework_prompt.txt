@@ -1,0 +1,20 @@
+工作仓库：E:\drivers-lib
+
+开始前必须先阅读：
+1. E:\drivers-lib\Driver_Framework.md
+2. E:\drivers-lib\skills\driver_framework_skill.md
+
+你必须严格遵循以下规则：
+1. 所有驱动必须使用 base device + handle + ops + dev_data + derived device + FSM
+2. 所有硬件访问必须经由 ops
+3. 所有驱动必须纯 C、可移植、不依赖 HAL/RTOS/SDK
+4. 所有驱动必须带完整清晰注释
+5. 所有新增驱动必须带 README 和 example
+6. 所有新增驱动必须做 arm-none-eabi-gcc 编译检查
+7. 修改完成后更新根 README
+8. 若我要求推送，则提交并推送到 GitHub
+
+输出要求：
+1. 不要只分析，要直接改代码
+2. 不要偏离当前仓库接口风格
+3. 优先保持最小正确实现
